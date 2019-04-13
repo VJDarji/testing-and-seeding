@@ -39,6 +39,9 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item dropdown">
+                            <a class="nav-link" href="{{ route('about') }}">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
                             <a class="nav-link" href="{{ route('get.contactus') }}">Contact</a>
                         </li>
                         <!-- Authentication Links -->
